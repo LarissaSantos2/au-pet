@@ -22,5 +22,3 @@ O projeto foi criado como parte de estudos em **HTML, CSS, Bootstrap e desenvolv
 ```bash
 https://larissasantos2.github.io/au-pet/
 
-
-
