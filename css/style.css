@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Corpo da página */
+body {
+  background: linear-gradient(
+    rgb(149, 109, 149),
+    rgb(99, 41, 99),
+    rgb(224, 196, 224)
+  );
+}
+
+/* Navbar */
+.navbar {
+  background-color: transparent;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.logo {
+  width: 90px;
+}
+
+/* Nome Pet Shop */
+nav .container h2 {
+  color: #fff;
+  font-weight: 600;
+}
+
+nav .container span {
+  color: rgb(243, 168, 9);
+}
+
+/* Botão carrinho */
+.cart-btn {
+  background-color: rgb(243, 168, 9);
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.cart-btn:hover {
+  background-color: rgb(255, 196, 0);
+}
+
+/* Hero Section */
+.hero-section {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hero-text h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.cta-btn {
+  background-color: rgb(253, 168, 9);
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  padding: 15px 40px;
+  transition: 0.3s;
+}
+.cta-btn:hover {
+  background-color: rgb(255, 196, 0);
+}
+
+/* Main animals (imagem principal) */
+.main-animals {
+  margin-top: -50px;
+}
+.main-animals img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Categorias */
+.category-section {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.category-box {
+  margin-top: 20px;
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.category-box img.cat-img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.category-box p {
+  margin-top: 2px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* beneficios */
+section.beneficios {
+  background-color: #fff;
+  height: 320px;
+  width: 100%;
+  margin-top: -40px;
+}
+
+.benefit-box {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.benefit-box:hover {
+  transform: translateY(-10px);
+}
+
+.benefit-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.benefit-text {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Seção destaque */
+.destaque {
+  position: relative;
+  height: 500px;
+  background-color: #fff;
+}
+
+/* Forma geométrica atrás da imagem */
+.shape-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-15deg);
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(45deg, #ffdd00, #e0a1ed);
+  border-radius: 30px;
+  z-index: 0;
+}
+
+/* Imagem sobre a forma */
+.destaque-img {
+  position: relative;
+  z-index: 1;
+  max-width: 40%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.destaque-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #6a3191;
+}
+
+.destaque-text {
+  font-size: 18px;
+  text-align: justify;
+  color: #333;
+}
+
+/* Botão */
+.saber-mais {
+  background-color: #e0a1ed;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  padding: 12px 35px;
+  transition: 0.3s;
+}
+.saber-mais:hover {
+  background-color: #6a3191;
+}
