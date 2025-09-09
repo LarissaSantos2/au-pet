@@ -11,8 +11,8 @@
 /* Corpo da página */
 body {
   background: linear-gradient(
-    rgb(149, 109, 149),
-    rgb(99, 41, 99),
+    rgb(103, 72, 103),
+    rgb(194, 142, 194),
     rgb(224, 196, 224)
   );
 }
@@ -191,11 +191,18 @@ section.beneficios {
   border-radius: 20px;
 }
 
-.destaque-title {
+.destaque-title, .adocao, .produtos h2 {
   font-size: 36px;
   font-weight: 600;
   color: #6a3191;
 }
+
+.adocao h2 {
+  color: #ffffff !important;
+    font-weight: 600;
+}
+
+
 
 .destaque-text {
   font-size: 18px;
@@ -215,3 +222,159 @@ section.beneficios {
 .saber-mais:hover {
   background-color: #6a3191;
 }
+
+/* Sevtion Doações */
+.pet-box {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  text-align: center;
+  transition: transform 0.3s;
+}
+.pet-box:hover {
+  transform: translateY(-8px);
+}
+
+/* Imagem do cachorro */
+.pet-img {
+  height: 230px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Info do cachorro */
+.pet-info {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+  margin-top: 15px;
+}
+
+/* Detalhes - nome e idade */
+.pet-detail {
+  background: #f3a809;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Estilo Produtos */
+section.produtos {
+  height: 630px;
+  width: 100%;
+  background-color: #fff;
+}
+/* Card */
+.produto-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.produto-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Imagem */
+.produto-img {
+  height: 280px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Descrição */
+.produto-desc {
+  font-size: 15px;
+  color: #333;
+  min-height: 40px;
+}
+
+/* Preço + botão lado a lado */
+.produto-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Preço */
+.preco {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6b1c85;
+}
+
+/* Botão */
+.btn-comprar {
+  background: #e0a1ed;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-comprar:hover {
+  background: #5d1367;
+}
+
+/* Footer */
+.footer {
+  background: #5d1367;
+  color: #fff;
+}
+
+.footer-logo {
+  width: 50px;
+  height: auto;
+}
+
+.footer-brand h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #f3a809;
+}
+
+.footer-slogan {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #f3a809;
+}
+
+.footer-contact li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.footer-contact i {
+  margin-right: 8px;
+  color: #f3a809;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #f3a809;
+}
+
