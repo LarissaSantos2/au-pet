@@ -11,9 +11,9 @@
 /* Corpo da página */
 body {
   background: linear-gradient(
-    rgb(103, 72, 103),
-    rgb(194, 142, 194),
-    rgb(224, 196, 224)
+    rgb(126, 79, 126),
+    rgb(162, 101, 162),
+    rgb(244, 217, 244)
   );
 }
 
@@ -223,7 +223,7 @@ section.beneficios {
   background-color: #6a3191;
 }
 
-/* Sevtion Doações */
+/* Section Doações */
 .pet-box {
   background: #fff;
   border-radius: 15px;
