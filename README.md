@@ -12,7 +12,7 @@ O projeto foi criado como parte de estudos em **HTML, CSS, Bootstrap e desenvolv
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5**
-- **CSS3** (com `flexbox`, `grid` e efeitos de transição)
+- **CSS3**
 - **Bootstrap 5**
 
 ## 👀 Como Visualizar
